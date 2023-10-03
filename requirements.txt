@@ -32,7 +32,7 @@ simpleaudio
 soundfile
 SpeechRecognition
 sqlalchemy
-torch
+torch==2.0.1
 twilio
 typing
 uvicorn
