@@ -9,6 +9,8 @@ WORKDIR /realtime_ai_character
 COPY requirements.txt /realtime_ai_character/
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN sudo apt-get upgrade sqlite3
+
 # Copy the project files
 COPY ./ /realtime_ai_character/
 
