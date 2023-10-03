@@ -1,7 +1,10 @@
 FROM python:slim
 
 # Install system-level dependencies
-RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev python3-dev
+RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev
+
+# Install PyAudio separately
+RUN pip install --no-cache-dir pyaudio
 
 
 WORKDIR /realtime_ai_character
