@@ -14,6 +14,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 复制项目文件
 COPY ./ /realtime_ai_character/
 
+# 前端
+RUN python cli.py web-build
+
 # 暴露容器中的 8000 端口
 EXPOSE 8000
 
