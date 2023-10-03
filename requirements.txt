@@ -9,6 +9,7 @@ edge-tts
 elevenlabs
 fastapi
 faster-whisper
+ffmpeg
 firebase-admin
 google-cloud-speech
 google-cloud-storage
@@ -20,7 +21,6 @@ langchain>=0.0.240
 llama_index
 multion
 psycopg2-binary
-pyaudio
 pydantic
 pydub
 pypdf
