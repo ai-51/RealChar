@@ -19,7 +19,7 @@ ipywidgets
 langchain>=0.0.240
 llama_index
 multion
-psycopg2-binary==2.8.6
+psycopg2-binary
 pyaudio
 pydantic
 pydub
