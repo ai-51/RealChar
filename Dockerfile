@@ -1,7 +1,8 @@
 FROM python:slim
 
 # Install system-level dependencies
-RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev
+RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev python3-dev
+
 
 WORKDIR /realtime_ai_character
 
