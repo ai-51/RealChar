@@ -9,6 +9,7 @@ WORKDIR /realtime_ai_character
 
 # 安装 Python 依赖项
 COPY requirements.txt /realtime_ai_character/
+COPY cli.py /realtime_ai_character/cli.py
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 复制项目文件
@@ -19,6 +20,8 @@ EXPOSE 8000
 
 # 使入口脚本可执行
 RUN chmod +x /realtime_ai_character/entrypoint.sh
+
+RUN python cli.py web-build
 
 # 运行应用程序
 CMD ["/bin/sh", "/realtime_ai_character/entrypoint.sh"]
