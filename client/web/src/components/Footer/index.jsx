@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import { FaGithub, FaDiscord, FaTwitter } from 'react-icons/fa';
+import { FaStore, FaWeixin, FaQq } from 'react-icons/fa';
 import './style.css';
 
 const Footer = () => (
@@ -14,33 +14,33 @@ const Footer = () => (
     <div className='rounded-social-buttons'>
       <a
         className='social-button github'
-        href='https://github.com/Shaunwei/RealChar'
+        href='https://qr01.cn/E0VqCY'
         target='_blank'
         rel='noreferrer'
       >
-        <FaGithub />
+        <FaStore />
       </a>
       <a
         className='social-button discord'
-        href='https://discord.gg/e4AYNnFg2F'
+        href='https://docs.qq.com/doc/DWGtjYVVxTUxTYWVL'
         target='_blank'
         rel='noreferrer'
       >
-        <FaDiscord />
+        <FaWeixin />
       </a>
       <a
         className='social-button twitter'
-        href='https://twitter.com/agishaun'
+        href='http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=W18nuFY8tNFsbiZpkVJTYpcVGWbxhZ9b&authKey=qPjz8YznmwTDdbNYZ8qojeS0kmIrH1aUZ7mrUnxKsXnUKIx5ur5%2BkA5BMWJoZKIP&noverify=0&group_code=653065114'
         target='_blank'
         rel='noreferrer'
       >
-        <FaTwitter />
+        <FaQq />
       </a>
     </div>
     <p className='copyright'>
       Copyright © 2023 RealChar. All rights reserved. Any AI character&apos;s
       statements are fictional and don&apos;t represent actual beliefs or
-      opinions. Ver: {process.env.REACT_APP_BUILD_NUMBER}
+      opinions.
     </p>
   </footer>
 );
