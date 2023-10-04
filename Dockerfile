@@ -2,7 +2,7 @@
 FROM python:3.10-bullseye
 
 # 安装系统级依赖项和 SQLite3 版本
-RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev
+RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg libpq-dev sqlite3
 
 # 安装 Node.js v20.7.0 和 npm
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
