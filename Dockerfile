@@ -18,8 +18,6 @@ COPY ./ /realtime_ai_character/
 COPY requirements.txt /realtime_ai_character/
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-RUN sqlite3 test.db "VACUUM;"
-
 # 使入口脚本可执行
 RUN chmod +x /realtime_ai_character/entrypoint.sh
 
