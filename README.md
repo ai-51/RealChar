@@ -284,7 +284,6 @@ And it should work out of the box.
 <br/>
 
 ## 📍 Roadmap
-- [x] Launch v0.0.3
 - [ ] Create a new character via web UI
 - [ ] Add additional tts service
 - [ ] Better UI/UX for home page
