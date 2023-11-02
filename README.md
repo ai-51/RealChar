@@ -4,6 +4,7 @@
     <img src="https://storage.googleapis.com/assistly/static/realchar/logo.png" alt="RealChar-logo" width="80%"  style="padding: 40px"/>
 </div>
 <br/>
+
 <p align="center">
   🎙️🤖<em>Create, customize and talk to your AI Character/Companion in realtime</em>🎙️🤖
 </p>
